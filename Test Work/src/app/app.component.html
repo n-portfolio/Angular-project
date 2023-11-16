@@ -1,0 +1,6 @@
+<app-title number="{{ number }}"></app-title>
+
+<div class="player">
+  <mat-advanced-audio-player [playlist]="playlist" (trackEnded)="triggerOnEnded($event)" [autoPlay]="true" allow="autoplay"></mat-advanced-audio-player>
+</div>
+
